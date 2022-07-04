@@ -17,7 +17,7 @@ class App {
         const routes = new Router();
 
         routes.get("/hello", (req, res) => {
-            res.json({hello: "world"})
+            res.json({hello: "World"})
         });
 
         this.server.use(routes)
